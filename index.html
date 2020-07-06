@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Filter App</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1>Justin's Photo App</h1>
+    <h2>Enter two keywords. The first pulls photos from an Api whoose tags match that word, the second filters them by a second tag. (Css unfinished)</h2>
+    <div class= "form">
+        <input type="text" name="keyword1" id="keyword1" placeholder="Give the first photo keyword">
+        <a href="#" id="submitKeyword1">Keyword #1</a>
+        <div class="keyword1"></div>
+    
+        <input type="text" name="keyword2" id="keyword2" placeholder="Give the second photo keyword">
+        <a href="#" id="submitKeyword2">Keyword #2</a>
+        <div class="keyword2"></div>
+
+        <button class="submit" id="submitButton">Submit!</button>
+    </div>
+
+
+    <div class= "display"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
